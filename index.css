@@ -1,0 +1,94 @@
+* {
+      margin: 0rem;
+      padding: 0rem;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+}
+
+@font-face {
+      font-family: 'Inter';
+      src: url('/asset/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+
+body {
+      background: black;
+      color: white;
+}
+
+.container {
+      margin: 4rem auto 0.2rem;
+      padding: 2rem 3rem;
+      max-width: 25rem;
+      background: rgb(34, 34, 34);
+      text-align: center;
+      border-radius: 1rem;
+      color: white;
+}
+
+.profile-photo img {
+      border-radius: 4.5rem;
+      width: 7rem;
+      height: 7rem;
+      outline: 0.0625rem;
+      margin: 1rem 0rem 1.5rem;
+}
+
+h1 {
+      margin: 0rem 0rem 0.8rem;
+      font-weight: 500;
+      font-size: 170%;
+}
+
+.origin {
+      color: rgb(195, 228, 47);
+      font-size: 0.9rem;
+      font-weight: 700;
+}
+
+.work {
+      margin: 2rem 0rem;
+      font-weight: 350;
+      font-size: 0.9rem;
+}
+
+.container a {
+      display: block;
+      text-decoration: none;
+      margin: 1rem auto;
+      background: rgb(53, 52, 52);
+      color: white;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      font-weight: 550;
+}
+
+.container a:hover {
+      background-color: #c3ff1e;
+      color: black;
+      font-weight: 800;
+}
+
+.container-2 {
+      margin: 0.7rem auto;
+      max-width: 25rem;
+      text-align: center;
+      border-radius: 1.5rem;
+      color: white;
+      display: flex;
+      justify-content: center;
+      font-size: 78%;
+}
+
+.baseline2 {
+      padding: 0.5rem 0.8rem ;
+}
+
+.baseline2 a {
+      text-decoration: none;
+      color: #c3ff1e;
+}
+
+.baseline2 a:hover {
+      text-decoration: underline;
+}
